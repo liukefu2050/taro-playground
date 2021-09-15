@@ -1932,10 +1932,10 @@
     xml2js "^0.4.19"
     xxhashjs "^0.2.2"
 
-"@tarojs/components-rn@3.3.6":
-  version "3.3.6"
-  resolved "https://registry.yarnpkg.com/@tarojs/components-rn/-/components-rn-3.3.6.tgz#0415dc49f97d91519abd09d35e17546a8644dd72"
-  integrity sha512-9SJnaiDtROSd4DdTNDaAeDhfqBBAjfPSOf+SwcAbl9VPrNy0yjDxsizxrjc24A+isWIfscPrO5aTnwhPGiDxrg==
+"@tarojs/components-rn@3.3.8", "@tarojs/components-rn@^3.3.7":
+  version "3.3.8"
+  resolved "https://registry.yarnpkg.com/@tarojs/components-rn/-/components-rn-3.3.8.tgz#fe4f9aa66b0df0e56c99a1630acef83b15a4728a"
+  integrity sha512-trnLlrHHPWJZbauD1p8klGHUzQtIrDwurP9d4Fz4MRechzq/ZM0NFCR8xfSc42vmmmHBFE+YsbOz/4HCHuxgPg==
   dependencies:
     "@ant-design/react-native" "^4.2.0"
     "@react-native-community/slider" "4.0.0-rc.3"
@@ -2173,10 +2173,10 @@
   resolved "https://registry.yarnpkg.com/@tarojs/rn-transformer/-/rn-transformer-3.3.6.tgz#f1f4efbb5b21bfb30ee3d232b4e076db2101d8b8"
   integrity sha512-8gnnhTvveDHC5gsgVwOPnLeTO5p9N+C38bcQ3CQA0KpQB4i+TfXGvPhEPtq+i9ArZab3Jb+uLNBn1pCYBzb9qA==
 
-"@tarojs/router-rn@3.3.6":
-  version "3.3.6"
-  resolved "https://registry.yarnpkg.com/@tarojs/router-rn/-/router-rn-3.3.6.tgz#65f4e9206e1764920851ab9c5386c9167cc7b0c3"
-  integrity sha512-o0blh1v0fyk/uCVc9DA+gXsjVQtvLM0McV07VvvZ6MOyEDQiRCW24u/1E5NoB/Dxxl2zGDjGF8Jp4ItdXMWpSw==
+"@tarojs/router-rn@3.3.8", "@tarojs/router-rn@^3.3.7":
+  version "3.3.8"
+  resolved "https://registry.yarnpkg.com/@tarojs/router-rn/-/router-rn-3.3.8.tgz#145852b0e63f15fedafe8eace33c396b77bad6bb"
+  integrity sha512-SEIy5I0u5Fu37UF6I+EseE8CxGMb/LqvYa1j+oUFeoDooJjMrrwIlKiauoxe21d9qcC9wVkWAOk71sh9Rjtinw==
   dependencies:
     "@react-native-community/bob" "^0.16.2"
     "@react-native-community/masked-view" "^0.1.10"
@@ -2208,13 +2208,13 @@
     "@tarojs/helper" "3.3.6"
     scss-bundle "^3.0.2"
 
-"@tarojs/runtime-rn@3.3.6":
-  version "3.3.6"
-  resolved "https://registry.yarnpkg.com/@tarojs/runtime-rn/-/runtime-rn-3.3.6.tgz#60224ae0cdcd5e79eebdad89f0188f5fc5c9a7f9"
-  integrity sha512-F1gUlyknJmQfz5hzu7vw4fmw067S9KOVj2yu3NhAGrufyNVwqhZUF/0+9pGOwAtwhUOKKG3YjL7842OXN9a1Fw==
+"@tarojs/runtime-rn@3.3.8":
+  version "3.3.8"
+  resolved "https://registry.yarnpkg.com/@tarojs/runtime-rn/-/runtime-rn-3.3.8.tgz#ada849c256ad3b2c825f44d7ef22f4e6463ec98b"
+  integrity sha512-1nVJyG63KqqIqr6j3HJJYAogyL6Usxlw9J9mYwQ72nQ3GIw6gR6a3T+U00rGCDtzVPK3sOIEXtoNR4wsAbf+2Q==
   dependencies:
-    "@tarojs/components-rn" "3.3.6"
-    "@tarojs/router-rn" "3.3.6"
+    "@tarojs/components-rn" "3.3.8"
+    "@tarojs/router-rn" "3.3.8"
 
 "@tarojs/runtime@3.3.6":
   version "3.3.6"
@@ -2269,17 +2269,17 @@
     acorn-walk "^8.0.0"
     loader-utils "^1.2.3"
 
-"@tarojs/taro-rn@3.3.6":
-  version "3.3.6"
-  resolved "https://registry.yarnpkg.com/@tarojs/taro-rn/-/taro-rn-3.3.6.tgz#3e683324e9c8f15f09a54e0eef1d73145bde320e"
-  integrity sha512-Q+GZG9X+Xi8x1cScCS6AQ9P652Nm+oXJDfLHSl0uQmkZ0UrDTjqjomA+ZlKqJPEBrWkTi9e9BulOFa+ROtN34Q==
+"@tarojs/taro-rn@^3.3.7":
+  version "3.3.8"
+  resolved "https://registry.yarnpkg.com/@tarojs/taro-rn/-/taro-rn-3.3.8.tgz#3dd10701adc2667d151aee270c1cd40dbc05a2ad"
+  integrity sha512-uGEp54T+Lfepx5VJ2wrhoFjA/2LfXGA6lLnFzTqmhD6tKkPLfu1wusxO3Jxot7vGOZcIGZCLVEoWB95BLs2pbw==
   dependencies:
     "@react-native-async-storage/async-storage" "^1.13.2"
     "@react-native-community/cameraroll" "^4.0.1"
     "@react-native-community/clipboard" "^1.5.1"
     "@react-native-community/geolocation" "^2.0.2"
     "@react-native-community/netinfo" "^5.9.7"
-    "@tarojs/runtime-rn" "3.3.6"
+    "@tarojs/runtime-rn" "3.3.8"
     babel-preset-expo "^5.2.0"
     base64-js "^1.3.0"
     expo-av "~8.6.0"
